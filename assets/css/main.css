@@ -231,20 +231,6 @@ a:hover {
   transition: var(--transition);
 }
 
-.theme-toggle {
-  background: none;
-  border: 2px solid var(--border-color);
-  color: var(--text-primary);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.theme-toggle:hover {
-  background: var(--bg-alt);
-}
 
 /* ========================================================================
    HERO SECTION

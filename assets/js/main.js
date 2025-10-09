@@ -42,40 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // ========================================================================
-    // Dark Mode Toggle
+    // Dark Mode (Default)
     // ========================================================================
 
-    const themeToggle = document.getElementById('themeToggle');
+    // Dark mode is always enabled
     const html = document.documentElement;
-    const themeIcon = themeToggle?.querySelector('i');
-
-    // Check for saved theme preference or default to 'light'
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    html.setAttribute('data-theme', currentTheme);
-    updateThemeIcon(currentTheme);
-
-    if (themeToggle) {
-        themeToggle.addEventListener('click', function() {
-            const theme = html.getAttribute('data-theme');
-            const newTheme = theme === 'light' ? 'dark' : 'light';
-
-            html.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            updateThemeIcon(newTheme);
-        });
-    }
-
-    function updateThemeIcon(theme) {
-        if (themeIcon) {
-            if (theme === 'dark') {
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-            } else {
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-            }
-        }
-    }
+    html.setAttribute('data-theme', 'dark');
 
     // ========================================================================
     // Smooth Scroll for Navigation Links
