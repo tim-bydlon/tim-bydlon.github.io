@@ -1,0 +1,42 @@
+# Site settings
+title: Tim Bydlon | AI/ML Engineer
+email: tbydlon3@gatech.edu
+description: >-
+  Senior Data Science Manager at Salesforce and Graduate Research Assistant at Georgia Tech's Design Intelligence Lab.
+  Specializing in LLM planning, cognitive AI, and production ML systems with measurable business impact.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tim-bydlon.github.io" # the base hostname & protocol for your site
+github_username: tim-bydlon
+linkedin_username: timbydlon
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO settings
+author: Tim Bydlon
+twitter:
+  card: summary
+social:
+  name: Tim Bydlon
+  links:
+    - https://www.linkedin.com/in/timbydlon
+    - https://github.com/tim-bydlon
+
+# Google Analytics (add your tracking ID when ready)
+google_analytics: # UA-XXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea/
