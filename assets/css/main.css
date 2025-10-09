@@ -489,6 +489,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.publication-card h3 {
+  padding-right: 120px;
+}
+
 .publication-authors {
   color: var(--text-muted);
   font-size: 0.875rem;
