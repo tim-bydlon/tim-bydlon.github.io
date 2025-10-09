@@ -359,11 +359,6 @@ a:hover {
   font-size: 1.125rem;
 }
 
-.about-content p:first-child {
-  font-size: 1.25rem;
-  color: var(--text-primary);
-}
-
 /* ========================================================================
    EXPERIENCE/TIMELINE
    ======================================================================== */
