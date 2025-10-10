@@ -353,6 +353,10 @@ a:hover {
    ABOUT SECTION
    ======================================================================== */
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 .about-content {
   max-width: 800px;
   margin: 0 auto;
