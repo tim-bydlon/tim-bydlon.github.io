@@ -188,11 +188,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-// ========================================================================
-// Console Easter Egg
-// ========================================================================
 
-console.log('%c👋 Hi there!', 'font-size: 20px; font-weight: bold; color: #2563EB;');
 console.log('%cThanks for checking out my portfolio!', 'font-size: 14px; color: #6B7280;');
 console.log('%cFeel free to reach out at tbydlon3@gatech.edu', 'font-size: 14px; color: #6B7280;');
-console.log('%c🚀 Let\'s build something amazing together!', 'font-size: 14px; color: #10B981;');
