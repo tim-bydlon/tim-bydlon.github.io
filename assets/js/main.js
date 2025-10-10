@@ -153,23 +153,23 @@ document.addEventListener('DOMContentLoaded', function() {
     // Typing Effect for Hero Title (optional enhancement)
     // ========================================================================
 
-    const heroTitle = document.querySelector('.hero-title');
-    if (heroTitle) {
-        const text = heroTitle.textContent;
-        heroTitle.textContent = '';
-        let index = 0;
+    // const heroTitle = document.querySelector('.hero-title');
+    // if (heroTitle) {
+    //     const text = heroTitle.textContent;
+    //     heroTitle.textContent = '';
+    //     let index = 0;
 
-        function typeWriter() {
-            if (index < text.length) {
-                heroTitle.textContent += text.charAt(index);
-                index++;
-                setTimeout(typeWriter, 100);
-            }
-        }
+    //     function typeWriter() {
+    //         if (index < text.length) {
+    //             heroTitle.textContent += text.charAt(index);
+    //             index++;
+    //             setTimeout(typeWriter, 100);
+    //         }
+    //     }
 
-        // Start typing effect after a short delay
-        setTimeout(typeWriter, 500);
-    }
+    //     // Start typing effect after a short delay
+    //     setTimeout(typeWriter, 500);
+    // }
 
     // ========================================================================
     // Add Active Class to Navigation on Page Load
