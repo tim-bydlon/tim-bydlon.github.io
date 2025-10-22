@@ -24,3 +24,5 @@ Thumbs.db
 # Dependencies
 node_modules/
 vendor/
+
+CLAUDE.md
